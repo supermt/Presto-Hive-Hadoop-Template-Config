@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/sxl" href="configuration.xsl"?>
+<configuration>
+<property>
+    <name>hive.metastore.local</name>
+    <value>true</value>
+</property>
+<property>
+    <name>javax.jdo.option.ConnectionURL</name>
+    <value>jdbc:mysql://127.0.0.1:3306/hive?useUnicode=true&amp;characterEncoding=utf8&amp;createDatabaseIfNotExist=true</value>
+</property>
+
+<property>
+    <name>javax.jdo.option.ConnectionDriverName</name>
+    <value>com.mysql.jdbc.Driver</value>
+</property>
+
+<property>
+    <name>javax.jdo.option.ConnectionUserName</name>
+    <value>hive</value>
+</property>
+
+<property>
+    <name>javax.jdo.option.ConnectionPassword</name>
+    <value>123456</value>
+</property>
+
+<property>
+    <name>hive.metastore.schema.verification</name>
+    <value>false</value>
+</property>
+
+<property>
+    <name>fs.default.name</name>
+    <value>hdfs://127.0.0.1:9000</value>
+</property>
+
+
+</configuration>
+

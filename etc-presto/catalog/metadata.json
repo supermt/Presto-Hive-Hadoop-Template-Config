@@ -1,0 +1,18 @@
+{
+    "example": [
+        {
+            "name": "numbers",
+            "columns": [
+                {
+                    "name": "text",
+                    "type": "VARCHAR"
+                },
+                {
+                    "name": "value",
+                    "type": "BIGINT"
+                }
+            ],
+            "sources": ["http://127.0.0.1:10088/numbers-1.csv"]
+        }
+    ]
+}

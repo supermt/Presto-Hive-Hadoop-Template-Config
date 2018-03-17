@@ -1,0 +1,2 @@
+connector.name=fpga-connector
+metadata-uri=file:///Users/MT/git/spark/presto-server-0.196/etc/catalog/metadata.json
